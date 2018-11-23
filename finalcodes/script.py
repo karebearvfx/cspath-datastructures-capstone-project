@@ -19,7 +19,7 @@ restaurants_list = restaurant_data
 
 
 ##create a list of dictionary keys for array
-
+##O(N)
 def char_keys(lists):
     char_keys = []
     for item in lists:
@@ -34,6 +34,7 @@ def char_keys(lists):
 
 ##create a list of values for keys starting with the first letter
 #if there is more than one value, it is added to the values list
+O(N)
 def find_values(key,value_list):
      
     key_value_list = []
